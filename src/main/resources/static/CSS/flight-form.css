@@ -1,0 +1,29 @@
+body {
+  margin: 10% 10% 10% 10%;
+  background: linear-gradient(to top left, #00ffff, transparent),
+    linear-gradient(to top right, #199500b0, transparent);
+  background-blend-mode: lighten;
+  background-repeat: round;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                   "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  margin: 2%;
+}
+
+.body-style {
+  border: 2px rgba(25, 149, 0, 0.691) solid;
+  border-radius: 2%;
+  box-shadow: 5px 10px #888888;
+  background: linear-gradient(to right, antiquewhite, transparent),
+    linear-gradient(to left, blanchedalmond, transparent);
+  margin: 2%;
+  padding: 3%;
+}
+
+.content {
+  margin: 1%;
+  max-height: 0;
+  overflow: hidden;
+}
