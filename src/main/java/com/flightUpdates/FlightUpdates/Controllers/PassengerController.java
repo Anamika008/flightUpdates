@@ -35,9 +35,9 @@ public class PassengerController {
         return "home";
     }
 
-    @GetMapping("/sign-up")
-    public String signUp() {
-        return "sign-up";
-    }
+//    @GetMapping("/sign-up")
+//    public String signUp() {
+//        return "sign-up";
+//    }
 
 }
