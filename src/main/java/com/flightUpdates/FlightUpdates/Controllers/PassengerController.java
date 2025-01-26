@@ -2,6 +2,7 @@ package com.flightUpdates.FlightUpdates.Controllers;
 
 import com.flightUpdates.FlightUpdates.Entity.Passenger;
 import com.flightUpdates.FlightUpdates.Entity.User;
+import com.flightUpdates.FlightUpdates.Services.CustomerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -27,17 +28,12 @@ public class PassengerController {
 
     @GetMapping("/book-flight")
     public String bookFlight() {
-        return "book-flight";
+        return "book-flight" ;
     }
 
     @PostMapping("/book-flight")
     public String checkFlight(){
-        return "home";
+        return "home" ;
     }
-
-//    @GetMapping("/sign-up")
-//    public String signUp() {
-//        return "sign-up";
-//    }
 
 }

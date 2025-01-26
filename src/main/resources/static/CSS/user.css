@@ -1,0 +1,22 @@
+body {
+  padding: 2%;
+  background: linear-gradient(to left, #b9e5e8, transparent),
+    linear-gradient(to right, #dff2eb, transparent);
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* center horizonatally */
+  align-items: center; /* center vertically */
+  height: 70vh;
+}
+
+.row div {
+  background-color: antiquewhite;
+  height: 110px;
+  width: 110px;
+  margin: 1px;
+}
+
+.card div {
+}

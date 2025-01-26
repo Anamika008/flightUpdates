@@ -19,50 +19,38 @@
   <body>
     <div class="container body-style">
       <h1>Sign Up</h1>
-      <form class="form" action="/add-passenger" method="post">
+      <form class="form" action="/sign-up" method="post">
         <div class="container mb-3">
           <div class="row">
-            <div class="col-4"><label for="mobile">Contact No.: </label></div>
-            <div class="col-6"><input type="text" name="mobile" /></div>
+            <div class="col-4"><label for="contact" >Contact No.: </label></div>
+            <div class="col-6"><input type="text" name="contact" /></div>
           </div>
         </div>
 
         <div class="container mb-3">
           <div class="row">
-            <div class="col-4">
-              <label for="email">Email Id: </label>
-            </div>
-            <div class="col-6">
-              <input type="email" name="email" />
-            </div>
+            <div class="col-4"> <label for="email" >Email Id: </label> </div>
+            <div class="col-6"> <input type="email" name="email" /> </div>
           </div>
         </div>
 
         <div class="container mb-3">
           <div class="row">
-            <div class="col-4"><label for="password">Password</label></div>
-            <div class="col-6">
-              <input class="" type="text" name="password" />
-            </div>
+            <div class="col-4"> <label for="password" >Password</label> </div>
+            <div class="col-6"> <input class="" type="password" name="password" /> </div>
           </div>
         </div>
 
         <div class="container mb-3">
           <div class="row">
-            <div class="col-4">
-              <label for="password">Confirm Password</label>
-            </div>
-            <div class="col-6">
-              <input class="" type="text" name="password" />
-            </div>
+            <div class="col-4"> <label for="confirmPassword" >Confirm Password</label> </div>
+            <div class="col-6"> <input class="" type="password" name="confirmPassword" /> </div>
           </div>
         </div>
 
         <div class="container mb-3">
           <div class="row">
-            <div class="col-2">
-              <button type="submit">submit</button>
-            </div>
+            <div class="col-2"> <button type="submit">submit</button> </div>
           </div>
         </div>
       </form>
