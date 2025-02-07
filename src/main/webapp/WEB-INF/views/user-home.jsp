@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="/CSS/user.css" />
   </head>
   <body>
-    <h1>${userName}</h1>
-    <h1>${userContact}</h1>
+    <h2>${userName}</h2>
+    <h2>${userContact}</h2>
 
     <!-- There are some feature or we can say authorization for user that they can do -->
 
